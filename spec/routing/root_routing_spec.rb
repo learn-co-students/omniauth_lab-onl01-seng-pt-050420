@@ -5,3 +5,4 @@ RSpec.describe "routes for Widgets", :type => :routing do
     expect(get("/")).  to route_to("welcome#home")
   end
 end
+ 
